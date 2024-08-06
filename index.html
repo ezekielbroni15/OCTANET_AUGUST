@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coffee Bliss</title>
+    <!-- Bootstrap Stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Index Style -->
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Favicon -->
+     <link rel="icon" href="./images/cup-of-hot-chocolate.png" type="image/x-icon" />
+     <!-- <a href="https://www.flaticon.com/free-icons/coffee" title="coffee icons">Coffee icons created by Freepik - Flaticon</a> -->
+
+    <!-- Aos CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Coffee Bliss</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active fw-semibold"
+                  aria-current="page"
+                  href="#hero"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-semibold"
+                  aria-current="page"
+                  href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-semibold"
+                  aria-current="page"
+                  href="#service"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-semibold"
+                  aria-current="page"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- END NAVBAR -->
+
+    <!-- HERO -->
+    <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col-12 pb-5">
+            <h1 class="fw-semibold display-1 text-white" data-aos="fade-left">
+              Welcome to Coffee Bliss
+            </h1>
+            <h5 class="text-white mt-3 mb-4" data-aos="fade-right">
+              A DAILY DOSE OF FRESHLY BREWED COFFEE
+            </h5>
+            <div>
+              <a
+                href="#"
+                class="btn btn-lg bg-light fw-bold ms-2"
+                data-aos="fade-up"
+                >BUY NOW</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END HERO -->
+
+    <!-- ABOUT US SECTION -->
+    <section id="about" class="container-fluid py-5 text-center text-md-start">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-sm-6 d-md-flex justify-content-md-center pb-4"
+            data-aos="fade-down"
+            data-aos-delay="50"
+          >
+            <img
+              src="./images/about.jpeg"
+              width="553"
+              height="746"
+              alt="About Us"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div
+            class="col-12 col-sm-6 align-self-center justify-content-md-center"
+            data-aos="fade-down"
+            data-aos-delay="50"
+          >
+            <h1 class="display-4 fw-bold">About Coffee Bliss</h1>
+            <p class="lead">
+              Coffee Bliss was founded with the mission to provide the finest
+              coffee experience to enthusiasts around the world. Our passion for
+              coffee drives us to source the best beans and create unique blends
+              that are sure to delight your senses.
+            </p>
+            <p class="lead">
+              We believe in sustainable practices and supporting local farmers.
+              Join us on a journey to explore the rich and diverse flavors of
+              coffee.
+            </p>
+            <a href="#" class="btn learn btn-lg mt-3">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT US SECTION -->
+
+    <!-- SERVICES ONE-->
+    <section id="service" class="steps container-fluid">
+      <h1
+        class="display-4 fw-bold text-center mb-5"
+        data-aos="fade-down"
+        data-aos-delay="100"
+      >
+        Our Services
+      </h1>
+      <div class="row">
+        <div
+          class="col-12 col-sm-6 d-md-flex justify-content-md-center pb-4"
+          data-aos="fade-right"
+          data-aos-delay="150"
+        >
+          <img
+            src="./images/img-1.jpeg"
+            alt="Coffee Flavour"
+            class="img-fluid steps__section-thumbnail"
+            width="553"
+            height="746"
+            loading="lazy"
+          />
+        </div>
+        <div
+          class="col-12 col-sm-6 align-self-center justify-content-md-center"
+        >
+          <div
+            class="steps__content-width"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
+            <span>01</span>
+            <h1 class="h2 mb-4">Amazing Flavour</h1>
+            <p class="mb-4">
+              Experience the rich and diverse flavors of our carefully crafted coffee blends, made from the finest beans sourced from around the world.
+            </p>
+            <a href="#">Read More <i class="bi bi-arrow-right-short"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END SERVICES ONE-->
+
+    <!-- SERVICES TWO-->
+    <section class="steps steps--background container-fluid">
+      <div class="row">
+        <div
+          class="col-12 col-sm-6 d-md-flex justify-content-md-center pb-4 order-sm-1"
+          data-aos="fade-left"
+          data-aos-delay="150"
+        >
+          <img
+            src="./images/img-4.jpeg"
+            alt="Coffee Flavour"
+            class="img-fluid steps__section-thumbnail"
+            width="553"
+            height="746"
+            loading="lazy"
+          />
+        </div>
+        <div
+          class="col-12 col-sm-6 align-self-center justify-content-md-center"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        >
+          <div class="steps__content-width">
+            <span>02</span>
+            <h1 class="h2 mb-4">Suprising Health Benefits</h1>
+            <p class="mb-4">
+              Discover the numerous health benefits of coffee, including antioxidants, improved mental focus, and enhanced physical performance.
+            </p>
+            <a href="#">Read More <i class="bi bi-arrow-right-short"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END SERVICES ONE-->
+
+    <!-- SERVICES THREE-->
+    <section class="steps container-fluid">
+      <div class="row">
+        <div
+          class="col-12 col-sm-6 d-md-flex justify-content-md-center pb-4"
+          data-aos="fade-right"
+          data-aos-delay="150"
+        >
+          <img
+            src="./images/img-2.jpeg"
+            alt="Coffee Flavour"
+            class="img-fluid steps__section-thumbnail"
+            width="553"
+            height="746"
+            loading="lazy"
+          />
+        </div>
+        <div
+          class="col-12 col-sm-6 align-self-center justify-content-md-center"
+          data-aos="fade-left"
+          data-aos-delay="200"
+        >
+          <div class="steps__content-width">
+            <span>03</span>
+            <h1 class="h2 mb-4">Artisan Brewing</h1>
+            <p class="mb-4">
+              Our skilled baristas bring their passion and expertise to every cup, ensuring an exceptional coffee experience every time.
+            </p>
+            <a href="#">Read More <i class="bi bi-arrow-right-short"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END SERVICES THREE-->
+
+    <!-- SERVICES FOUR-->
+    <section class="steps steps--background container-fluid">
+      <div class="row">
+        <div
+          class="col-12 col-sm-6 d-md-flex justify-content-md-center pb-4 order-sm-1"
+          data-aos="fade-left"
+          data-aos-delay="150"
+        >
+          <img
+            src="./images/img-3.jpeg"
+            alt="Coffee Flavour"
+            class="img-fluid steps__section-thumbnail"
+            width="553"
+            height="746"
+            loading="lazy"
+          />
+        </div>
+        <div
+          class="col-12 col-sm-6 align-self-center justify-content-md-center"
+          data-aos="fade-right"
+          data-aos-delay="250"
+        >
+          <div class="steps__content-width">
+            <span>04</span>
+            <h1 class="h2 mb-4">Sustainable Practices</h1>
+            <p class="mb-4">
+              We are committed to sustainability and ethical sourcing, supporting local farmers and promoting environmentally friendly practices.
+            </p>
+            <a href="#">Read More <i class="bi bi-arrow-right-short"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END SERVICES ONE-->
+
+    <!-- CONTACT -->
+<section class="section-padding pt-5 pb-5 bg-dark-subtle" id="contact">
+  <div class="container pb-5 bg">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="section-title">
+          <h1 class="display-4 text-black fw-semibold" data-aos="fade-down" data-aos-delay="100">
+            Get in Touch
+          </h1>
+          <p class="mx-auto fw-semibold" data-aos="fade-up-left" data-aos-delay="150">
+            We'd love to hear from you. Whether you have a question about our coffee, need assistance, or just want to talk, we're here to help.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-8" data-aos="fade-up-right" data-aos-delay="200">
+        <form action="#" class="row g-3 p-lg-5 p-4 bg-white">
+          <div class="form-group col-lg-6">
+            <input type="text" class="form-control rounded-0 bg-white fw-semibold py-3" placeholder="Enter first name" />
+          </div>
+          <div class="form-group col-lg-6">
+            <input type="text" class="form-control rounded-0 bg-white fw-semibold py-3" placeholder="Enter last name" />
+          </div>
+          <div class="form-group col-lg-12">
+            <input type="email" class="form-control rounded-0 bg-white fw-semibold py-3" placeholder="Enter email" />
+          </div>
+          <div class="form-group col-lg-12">
+            <input type="text" class="form-control rounded-0 bg-white fw-semibold py-3" placeholder="Enter subject" />
+          </div>
+          <div class="form-group col-lg-12">
+            <textarea name="message" rows="5" class="form-control rounded-0 bg-white fw-semibold py-3" placeholder="Enter message"></textarea>
+          </div>
+          <div class="form-group col-lg-12 d-grid">
+            <button class="btn send-btn btn-brand text-white fw-semibold p-3">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END CONTACT -->
+
+<!-- SECTION -->
+<section class="bg-dark text-white py-4">
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-12 col-sm-4 mb-4" data-aos="fade-right" data-aos-delay="100">
+        <img src="./images/img-1.jpeg" class="mb-4 img-fluid" alt="Coffee Flavor" width="441" height="248" loading="lazy" />
+        <h3>Amazing Coffee Flavor</h3>
+        <p>
+          Discover the rich and bold flavors of our specialty coffee. Each cup is crafted to perfection, ensuring a delightful experience with every sip.
+        </p>
+      </div>
+      <div class="col-12 col-sm-4 mb-4" data-aos="fade-down" data-aos-delay="100">
+        <img src="./images/img-2.jpeg" class="mb-4 img-fluid" alt="Health Benefits" width="441" height="248" loading="lazy" />
+        <h3>Health Benefits</h3>
+        <p>
+          Our coffee is not just delicious, it's also packed with health benefits. From boosting your metabolism to providing essential antioxidants, enjoy every cup guilt-free.
+        </p>
+      </div>
+      <div class="col-12 col-sm-4 mb-4" data-aos="fade-left" data-aos-delay="100">
+        <img src="./images/img-3.jpeg" class="mb-4 img-fluid" alt="Artisan Brewing" width="441" height="248" loading="lazy" />
+        <h3>Artisan Brewing</h3>
+        <p>
+          At Coffee Bliss, we pride ourselves on our artisan brewing techniques. Our baristas are skilled in creating the perfect brew, every time.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END SECTION -->
+
+<!-- FOOTER -->
+<footer class="footer bg-dark text-white">
+  <div class="container d-flex justify-content-between align-items-center py-3 border-highlight">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="#" class="me-2 text-muted text-decoration-none">
+        <i class="bi bi-cup"></i>
+        <span class="text-white">&copy; 2024 Coffee Bliss</span>
+      </a>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+      <li class="ms-3">
+        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+      </li>
+      <li class="ms-3">
+        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+      </li>
+      <li class="ms-3">
+        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<!-- END FOOTER -->
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
